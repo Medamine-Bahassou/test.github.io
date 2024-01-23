@@ -1,0 +1,71 @@
+body{
+    color: whitesmoke;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#option{
+    float: left;
+    padding-left: 25px;
+    cursor: pointer;
+}
+#nav_bar{
+    padding-top: 50px;
+}
+#nav_bar a {
+    font-size: medium;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    float:right;
+}
+#nav_bar a:hover {
+    font-size: medium;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5%;
+    border-color: 2px black ;
+    background-color: rgba(31, 160, 247, 0.514);
+    float:right;
+}
+#profile {
+    align-content: center;
+    padding-top: 100px;
+}
+#profile h3 {
+    font-size:100px ;
+    margin:1px;
+}
+
+#all_skills {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+.skill {
+    border-radius: 8%;
+    border: 1px solid rgba(35, 142, 241, 0.918) ;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgba(35, 142, 241, 0.918) ;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+
+#profile{
+    animation-delay: 0.25s;
+    animation-name: x;
+    animation-duration: 2s;
+}
+@keyframes x {
+    from{ 
+        translate: 150px 0 ;
+        color: #000;
+    }
+    to{
+        translate: 0 0;
+    }
+  }
+  
